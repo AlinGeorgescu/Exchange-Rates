@@ -19,16 +19,16 @@ public class Main {
 
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Date date = new Date();
-        System.out.println("Cursul pentru RON din data de " + dateFormat.format(date) + " este:");
-        System.out.println("=========================================");
-        System.out.println("|| Multiplicator || Valuta ||  Valoare ||");
+        System.out.println("Today " + dateFormat.format(date) + " exchange rate for RON is:");
+        System.out.println("========================================");
+        System.out.println("|| Multiplier || Currency ||   Amount ||");
 
         String separator = "||";
         for (Triplet<String, Integer, Double> currency : currencies) {
-            System.out.format("%s %8d %7s %5s %3s %8.4f %s\n",
+            System.out.format("%s %6d %6s %6s %4s %8.4f %s\n",
                     separator, currency.t2, separator, currency.t1,
                     separator, currency.t3, separator);
         }
-        System.out.println("=========================================");
+        System.out.println("========================================");
     }
 }

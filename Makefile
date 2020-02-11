@@ -14,6 +14,6 @@ run: build
 
 .PHONY: clean
 clean :
-	rm -f *.class *~
+	rm -f *.class *~ tmp_rates.xml
 %.class : %.java
 	$(JC) $(JFLAGS) $<
