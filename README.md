@@ -13,7 +13,7 @@ Starting transfer!
 Transfer completed!
 File deleted successfully!
 Today 11/02/2020 exchange rate for RON is:
-=========================================
+========================================
 || Multiplier || Currency ||   Amount ||
 ||      1     ||    AED   ||   1.1895 ||
 ||      1     ||    AUD   ||   2.9302 ||
@@ -47,5 +47,5 @@ Today 11/02/2020 exchange rate for RON is:
 ||      1     ||    XAU   || 220.2258 ||
 ||      1     ||    XDR   ||   5.9853 ||
 ||      1     ||    ZAR   ||   0.2935 ||
-=========================================
+========================================
 ```
